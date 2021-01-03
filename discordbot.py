@@ -22,5 +22,10 @@ async def Vtuber(ctx):
 async def kzrn(ctx):
     await ctx.send('kzrnはみんなの嫁<解釈一致>')    
 
-    
+
+@bot.command()
+async def FBK(ctx):
+    await ctx.send('https://www.youtube.com/channel/UCdn5BQ06XqgXoAxIhbqw5Rg')    
+
+        
 bot.run(token)

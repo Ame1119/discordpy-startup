@@ -14,8 +14,13 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def ping(ctx):
-    await ctx.send('pong')
+async def Vtuber(ctx):
+    await ctx.send('白上フブキを推していけ')
 
 
+@bot.command()
+async def kzrn(ctx):
+    await ctx.send('kzrnはみんなの嫁<解釈一致>')    
+
+    
 bot.run(token)

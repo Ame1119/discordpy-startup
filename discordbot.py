@@ -24,8 +24,8 @@ async def kzrn(ctx):
 
 
 @bot.command()
-async def FBK(ctx):
-    await ctx.send('https://www.youtube.com/channel/UCdn5BQ06XqgXoAxIhbqw5Rg')    
+async def apex(ctx):
+    await ctx.send('apexしようぜ')    
 
         
 bot.run(token)

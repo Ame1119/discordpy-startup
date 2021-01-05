@@ -34,7 +34,7 @@ async def youtubeAme(ctx):
 
         
 @bot.command()
-async def apex(ctx):
+async def thisiskzrn(ctx):
     await client.send_file(message.channel,"C:\Users\muno_negi\Downloads\Kawaiiuwu.mp4")    
 
         

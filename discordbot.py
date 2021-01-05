@@ -2,7 +2,7 @@ from discord.ext import commands
 import os
 import traceback
 
-bot = commands.Bot(command_prefix='/')
+bot = commands.Bot(command_prefix='^')
 token = os.environ['DISCORD_BOT_TOKEN']
 
 
@@ -26,6 +26,11 @@ async def kzrn(ctx):
 @bot.command()
 async def apex(ctx):
     await ctx.send('apexしようぜ')    
+
+        
+@bot.command()
+async def youtubeAme(ctx):
+    await ctx.send(' https://www.youtube.com/channel/UC6F-6adNROnUXE0jUQt1j3Q ')    
 
         
 bot.run(token)

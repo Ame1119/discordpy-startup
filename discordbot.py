@@ -35,7 +35,7 @@ async def youtubeAme(ctx):
         
 @bot.command()
 async def thisiskzrn(ctx):
-    await client.send_file(message.channel,"C:\Users\muno_negi\Downloads\Kawaiiuwu.mp4")    
+    await client.send_file(message.channel,C:\Users\muno_negi\Downloads\Kawaiiuwu.mp4)    
 
         
 bot.run(token)

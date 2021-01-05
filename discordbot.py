@@ -33,4 +33,9 @@ async def youtubeAme(ctx):
     await ctx.send(' https://www.youtube.com/channel/UC6F-6adNROnUXE0jUQt1j3Q ')    
 
         
+@bot.command()
+async def apex(ctx):
+    await client.send_file(message.channel,"C:\Users\muno_negi\Downloads\Kawaiiuwu.mp4")    
+
+        
 bot.run(token)
